@@ -8,6 +8,7 @@ namespace std
 using namespace std;
 #include "illegalParameter.h"
 #include "currencyOverload.h"
+#include "currency.h"
 
 int main(){
     currency g, h(p, 3, 50), i, j;
