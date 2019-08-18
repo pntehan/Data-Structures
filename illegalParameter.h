@@ -7,7 +7,7 @@ class illegalParameter
     public:
         illegalParameter():
             message("Illegal parameter value"){}
-        illegalParameter(char * theMessage){
+        illegalParameter(string theMessage){
             message = theMessage;
         }
         void outputMessage(){
