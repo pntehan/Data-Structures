@@ -91,13 +91,6 @@ arrayList<T>::arrayList(int initialCapacity){
         }
         catch (illegalParameter& e){
             e.outputMessage();
-chain::chain(/* args */)
-{
-}
-
-chain::~chain()
-{
-}
         }
     }
     arrayLength = initialCapacity;
